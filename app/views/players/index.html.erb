@@ -1,13 +1,15 @@
 <div class="row">
   <div class="small-3 small-centered columns">
     <h1>HALOER</h1>
-
-    <div>
-      <%= image_tag(spartan('sacusa')) %>
-    </div>
-
-    <div>
-      <%= image_tag(emblem('sacusa')) %>
-    </div>
+    <%= form_tag("/gamer", method: "get") do %>
+      <%= label_tag(:gamertag, "Gamertag:") %>
+      <%= text_field_tag(:gamertag) %> 
+      <%= submit_tag("Search", class:"large button") %>
+    <% end %>
   </div>
 </div>
+
+
+
+
+

@@ -4,7 +4,10 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'players#index'
+  
   resources :players
+
+  get 'gamer', :to => 'players#gamer', :as => :gamer
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
