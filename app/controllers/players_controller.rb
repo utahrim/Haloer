@@ -1,8 +1,10 @@
 class PlayersController < ApplicationController
 
-  require 'net/http'
-
   def index
 
+  end
+
+  def gamer
+    @player = params[:gamertag]
   end
 end
