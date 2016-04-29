@@ -36,6 +36,9 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
 
+  HALOKEY = "3a971b8c52274b3195f02bce66b1a7b4"
+  HALOKEY2 = "864805b83a0a4867b5e4110d193d6c78"
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end

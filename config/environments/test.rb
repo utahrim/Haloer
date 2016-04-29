@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  HALOKEY = "3a971b8c52274b3195f02bce66b1a7b4"
+  HALOKEY2 = "864805b83a0a4867b5e4110d193d6c78"
+  
   # The test environment is used exclusively to run your application's
   # test suite. You never need to work with it otherwise. Remember that
   # your test database is "scratch space" for the test suite and is wiped
