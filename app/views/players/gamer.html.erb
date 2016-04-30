@@ -9,12 +9,32 @@
        <%= image_tag(emblem(@player)) %>
      </div>
 
-     <h2> Last Game </h2>
-     <div>
-       <% @results = stats(@player, @count) %>
-       Kills: <%= @results.first["kills"] %> <br>
-       Deaths: <%= @results.first["deaths"] %> <br>
-       Assists: <%= @results.first["assists"] %>
+      <% @results = stats(@player, @count) %>
+
+    <div>
+
+    <h2> Last <%= @count == "" ? 5 : @count %> Games </h2>
+    <table>
+      <thead>
+        <tr>
+          <th width="150">Kills</th>
+          <th width="150">Deaths</th>
+          <th width="150">Assists</th>
+        </tr>
+      </thead>
+
+      <tbody>
+      <% @results.each do |stats| %>
+        <tr>
+          <td><%= stats["kills"] %></td>
+          <td><%= stats["deaths"] %></td>
+          <td><%= stats["assists"] %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+
+
      </div>
   </div>
 </div>

@@ -42,9 +42,14 @@ module ApplicationHelper
 
   def stats(gamertag, count)
     uri = URI('https://www.haloapi.com/stats/h5/players/'+ gamertag +'/matches')
+      
+      @count == count
+      if @count == ""
+          @count = "5"
+      end
     uri.query = URI.encode_www_form({
         # Request parameters
-        'count' => count
+          'count' => @count
     })
 
     request = Net::HTTP::Get.new(uri.request_uri)
@@ -58,9 +63,10 @@ module ApplicationHelper
     end
     json = JSON(response.body)["Results"]
 
+
     i = 0
     results = []
-    while i < count.to_i do
+    while i < @count.to_i do
         score = {"kills" => json[i]["Players"].first["TotalKills"], "deaths" => json[i]["Players"].first["TotalDeaths"], "assists" => json[i]["Players"].first["TotalAssists"]}
         results << score
         i += 1
