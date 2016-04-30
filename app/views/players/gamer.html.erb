@@ -9,21 +9,23 @@
        <%= image_tag(emblem(@player)) %>
      </div>
 
-      <% @results = stats(@player, @count) %>
+  </div>
+</div>
 
-    <div>
+<% @results = stats(@player, @count) %>
 
-    <h2> Last <%= @count == "" ? 5 : @count %> Games </h2>
-    <table>
-      <thead>
-        <tr>
-          <th width="150">Kills</th>
-          <th width="150">Deaths</th>
-          <th width="150">Assists</th>
-        </tr>
-      </thead>
+<div>
+  <h2> Last <%= @count == "" ? 5 : @count %> Games </h2>
+  <table>
+    <thead>
+      <tr>
+        <th width="150">Kills</th>
+        <th width="150">Deaths</th>
+        <th width="150">Assists</th>
+      </tr>
+    </thead>
 
-      <tbody>
+    <tbody>
       <% @results.each do |stats| %>
         <tr>
           <td><%= stats["kills"] %></td>
@@ -31,10 +33,6 @@
           <td><%= stats["assists"] %></td>
         </tr>
       <% end %>
-      </tbody>
-    </table>
-
-
-     </div>
-  </div>
+    </tbody>
+  </table>
 </div>
