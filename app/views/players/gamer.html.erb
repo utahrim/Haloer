@@ -11,7 +11,10 @@
 
      <h2> Last Game </h2>
      <div>
-       <%= stats(@player, @count) %>
+       <% @results = stats(@player, @count) %>
+       Kills: <%= @results.first["kills"] %> <br>
+       Deaths: <%= @results.first["deaths"] %> <br>
+       Assists: <%= @results.first["assists"] %>
      </div>
   </div>
 </div>
