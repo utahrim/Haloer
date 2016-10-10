@@ -2,7 +2,6 @@ class PlayersController < ApplicationController
 
   helper_method :save_file
   def index
-
   end
 
   def gamer
@@ -22,10 +21,13 @@ class PlayersController < ApplicationController
   end
 
   def save_file(game_events)
-    doc = "#{@player}-#{Time.now}.json"
+    doc = "#{@player}.json"
+    o = 1
+    File.open(doc, "w"){ |f| f << "#{@player}-#{Time.now}"}
     game_events.each do |match|
+      File.open(doc, "a"){ |f| f << "\n\nGame #{o}\n\n"}
       File.open(doc, "a"){ |f| f << (match.to_json)}
-      File.open(doc, "a"){ |f| f << "\n\n"}
+      o += 1
     end
     send_file(doc, :type => 'application/json; charset=utf-8')
   end
