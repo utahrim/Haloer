@@ -25,8 +25,8 @@ class PlayersController < ApplicationController
     o = 1
     File.open(doc, "w"){ |f| f << "#{@player}-#{Time.now}"}
     game_events.each do |match|
-      File.open(doc, "a"){ |f| f << "\n\nGame #{o}\n\n"}
-      File.open(doc, "a"){ |f| f << (match.to_json)}
+      File.open(doc, "a+"){ |f| f << "\n\n Game #{o} \n\n"}
+      File.open(doc, "a+"){ |f| f << (match.to_json)}
       o += 1
     end
     send_file(doc, :type => 'application/json; charset=utf-8')
