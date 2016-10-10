@@ -6,8 +6,8 @@ class PlayersController < ApplicationController
 
   def gamer
     get_player_and_count(params[:gamertag], params[:count])
-    @spartan = spartan(@player)
-    @emblem = emblem(@player)
+    # @spartan = spartan(@player)
+    # @emblem = emblem(@player)
     @results = stats(@player, @count)
   end
 
@@ -87,7 +87,8 @@ class PlayersController < ApplicationController
 
     request = Net::HTTP::Get.new(uri.request_uri)
     # Request headers
-    request['Ocp-Apim-Subscription-Key'] = HALOKEY
+      request['Ocp-Apim-Subscription-Key'] = HALOKEY
+
     # Request body
     request.body = "{body}"
 
@@ -113,27 +114,22 @@ class PlayersController < ApplicationController
 
       request = Net::HTTP::Get.new(uri.request_uri)
 
-      if t%5 == 0
-        sleep(2)
-      end
       # Request headers
       if t%2 == 0
         request['Ocp-Apim-Subscription-Key'] = HALOKEY2
       else
         request['Ocp-Apim-Subscription-Key'] = HALOKEY
       end
+      t += 1
       # Request body
       request.body = "{body}"
 
       response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
           http.request(request)
-
       end
-        t += 1
-
       matches << JSON(response.body)["GameEvents"]
     end
-      matches
+    matches
   end
 
   def get_match_id(match)
