@@ -24,11 +24,12 @@ class PlayersController < ApplicationController
     doc = "#{@player}.json"
     o = 1
     File.open(doc, "w"){ |f| f << "#{@player}-#{Time.now}"}
-    game_events.each do |match|
-      File.open(doc, "a+"){ |f| f << "\n\n Game #{o} \n\n"}
-      File.open(doc, "a+"){ |f| f << (match.to_json)}
-      o += 1
-    end
+    game_events = JSON.pretty_generate(game_events)
+    # game_events.each do |match|
+    #   File.open(doc, "a+"){ |f| f << "\n\n Game #{o} \n\n"}
+      File.open(doc, "a+"){ |f| f << (game_events)}
+    #   o += 1
+    # end
     send_file(doc, :type => 'application/json; charset=utf-8')
   end
 
@@ -103,6 +104,7 @@ class PlayersController < ApplicationController
   end
 
   def match_events(match_id)
+    t = 0
     matches = []
     match_id.each do |m_id|
       uri = URI('https://www.haloapi.com/stats/h5/matches/' + "#{m_id}" + '/events')
@@ -110,14 +112,24 @@ class PlayersController < ApplicationController
       })
 
       request = Net::HTTP::Get.new(uri.request_uri)
+
+      if t%5 == 0
+        sleep(2)
+      end
       # Request headers
-      request['Ocp-Apim-Subscription-Key'] = HALOKEY
+      if t%2 == 0
+        request['Ocp-Apim-Subscription-Key'] = HALOKEY2
+      else
+        request['Ocp-Apim-Subscription-Key'] = HALOKEY
+      end
       # Request body
       request.body = "{body}"
 
       response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
           http.request(request)
+
       end
+        t += 1
 
       matches << JSON(response.body)["GameEvents"]
     end
