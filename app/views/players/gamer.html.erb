@@ -2,17 +2,15 @@
   <div class="small-3 small-centered columns">
     <h1><a href="/">Haloer</a></h1>
      <div>
-       <%= image_tag(spartan(@player)) %>
+       <%= image_tag(@spartan) %>
      </div>
 
      <div>
-       <%= image_tag(emblem(@player)) %>
+       <%= image_tag(@emblem) %>
      </div>
 
   </div>
 </div>
-
-<% @results = stats(@player, @count) %>
 
 <div>
   <h2> Last <%= @count == "" ? 5 : @count %> Games </h2>
