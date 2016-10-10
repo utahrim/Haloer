@@ -2,11 +2,35 @@
   <div class="small-3 small-centered columns">
     <h1><a href="/">Haloer</a></h1>
      <div>
-       <%= image_tag(spartan(@player)) %>
+       <%= image_tag(@spartan) %>
      </div>
 
      <div>
-       <%= image_tag(emblem(@player)) %>
+       <%= image_tag(@emblem) %>
      </div>
+
   </div>
+</div>
+
+<div>
+  <h2> Last <%= @count == "" ? 5 : @count %> Games </h2>
+  <table>
+    <thead>
+      <tr>
+        <th width="150">Kills</th>
+        <th width="150">Deaths</th>
+        <th width="150">Assists</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @results.each do |stats| %>
+        <tr>
+          <td><%= stats["kills"] %></td>
+          <td><%= stats["deaths"] %></td>
+          <td><%= stats["assists"] %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </div>

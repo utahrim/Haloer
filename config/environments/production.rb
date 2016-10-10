@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  HALOKEY = "3a971b8c52274b3195f02bce66b1a7b4"
+  HALOKEY2 = "864805b83a0a4867b5e4110d193d6c78"
+  
   # Code is not reloaded between requests.
   config.cache_classes = true
 

@@ -4,6 +4,8 @@
     <%= form_tag("/gamer", method: "get") do %>
       <%= label_tag(:gamertag, "Gamertag:") %>
       <%= text_field_tag(:gamertag) %> 
+      <%= label_tag(:count, "Game Count:") %>
+      <%= number_field_tag(:count) %> 
       <%= submit_tag("Search", class:"large button") %>
     <% end %>
   </div>
