@@ -22,12 +22,11 @@ class PlayersController < ApplicationController
 
   def save_file(game_events)
     doc = "#{@player}.json"
-    o = 1
     File.open(doc, "w"){ |f| f << "#{@player}-#{Time.now}"}
     game_events = JSON.pretty_generate(game_events)
     # game_events.each do |match|
     #   File.open(doc, "a+"){ |f| f << "\n\n Game #{o} \n\n"}
-      File.open(doc, "a+"){ |f| f << (game_events)}
+    File.open(doc, "a+"){ |f| f << (game_events)}
     #   o += 1
     # end
     send_file(doc, :type => 'application/json; charset=utf-8')
@@ -108,6 +107,10 @@ class PlayersController < ApplicationController
     t = 0
     matches = []
     match_id.each do |m_id|
+
+      if t%3 == 0
+        sleep(2)
+      end
       uri = URI('https://www.haloapi.com/stats/h5/matches/' + "#{m_id}" + '/events')
       uri.query = URI.encode_www_form({
       })
