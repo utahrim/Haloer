@@ -6,8 +6,8 @@ class PlayersController < ApplicationController
 
   def gamer
     get_player_and_count(params[:gamertag], params[:count])
-    @spartan = spartan(@player)
-    @emblem = emblem(@player)
+    # @spartan = spartan(@player)
+    # @emblem = emblem(@player)
     @results = stats(@player, @count)
   end
 
@@ -22,13 +22,13 @@ class PlayersController < ApplicationController
 
   def save_file(game_events)
     doc = "#{@player}.json"
-    o = 1
     File.open(doc, "w"){ |f| f << "#{@player}-#{Time.now}"}
-    game_events.each do |match|
-      File.open(doc, "a+"){ |f| f << "\n\n Game #{o} \n\n"}
-      File.open(doc, "a+"){ |f| f << JSON.pretty_generate(match)}
-      o += 1
-    end
+    game_events = JSON.pretty_generate(game_events)
+    # game_events.each do |match|
+    #   File.open(doc, "a+"){ |f| f << "\n\n Game #{o} \n\n"}
+    File.open(doc, "a+"){ |f| f << (game_events)}
+    #   o += 1
+    # end
     send_file(doc, :type => 'application/json; charset=utf-8')
   end
 
@@ -86,7 +86,8 @@ class PlayersController < ApplicationController
 
     request = Net::HTTP::Get.new(uri.request_uri)
     # Request headers
-    request['Ocp-Apim-Subscription-Key'] = HALOKEY
+      request['Ocp-Apim-Subscription-Key'] = HALOKEY
+
     # Request body
     request.body = "{body}"
 
@@ -103,25 +104,35 @@ class PlayersController < ApplicationController
   end
 
   def match_events(match_id)
+    t = 0
     matches = []
     match_id.each do |m_id|
+
+      if t%3 == 0
+        sleep(2)
+      end
       uri = URI('https://www.haloapi.com/stats/h5/matches/' + "#{m_id}" + '/events')
       uri.query = URI.encode_www_form({
       })
 
       request = Net::HTTP::Get.new(uri.request_uri)
+
       # Request headers
-      request['Ocp-Apim-Subscription-Key'] = HALOKEY
+      if t%2 == 0
+        request['Ocp-Apim-Subscription-Key'] = HALOKEY2
+      else
+        request['Ocp-Apim-Subscription-Key'] = HALOKEY
+      end
+      t += 1
       # Request body
       request.body = "{body}"
 
       response = Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
           http.request(request)
       end
-
       matches << JSON(response.body)["GameEvents"]
     end
-      matches
+    matches
   end
 
   def get_match_id(match)
