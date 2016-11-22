@@ -1,0 +1,1713 @@
+-2016-10-30 01:13:01 -0400[
+  [
+    {
+      "RoundIndex": 0,
+      "EventName": "RoundStart",
+      "TimeSinceStart": "PT0.3120044S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT32.3624161S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT32.3624161S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT32.3634162S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT32.3804164S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT32.3814161S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT32.3814161S"
+    }
+  ],
+  [
+    {
+      "RoundIndex": 0,
+      "EventName": "RoundStart",
+      "TimeSinceStart": "PT0.335026S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT1M0.1332341S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT1M0.1342341S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT1M0.1342341S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT1M0.1462334S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT1M0.1462334S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT1M0.1462334S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M11.8667S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT1M24.0549454S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M11.9167S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT1M24.0549454S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 4,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M20.0667S",
+      "WeaponAttachmentIds": [
+
+      ],
+      "WeaponStockId": 1730553442,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT2M44.4698967S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 0,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 2457457776,
+      "KillerWorldLocation": {
+        "x": 105.025711,
+        "y": -80.67529,
+        "z": -26.270174
+      },
+      "Victim": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 105.025711,
+        "y": -80.67529,
+        "z": -26.270174
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT3M6.0586429S"
+    },
+    {
+      "ImpulseId": 1408036107,
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT3M6.0596395S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 1,
+      "ShotsLanded": 1,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M21.5667S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT3M6.0976418S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT3M14.0645176S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT3M14.0655391S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT3M14.0655391S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M25.2333S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT3M42.5661745S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT3M42.5661745S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT3M42.5681532S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M34.7667S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT3M58.8809866S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M23.5000S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT3M58.8809866S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M4.0500S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT4M0.2129645S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT4M0.2139477S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT4M0.2139477S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M4.1833S",
+      "WeaponAttachmentIds": [
+
+      ],
+      "WeaponStockId": 1730553442,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT4M3.0658905S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 0,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 2457457776,
+      "KillerWorldLocation": {
+        "x": 106.325806,
+        "y": -81.4131241,
+        "z": -26.0127144
+      },
+      "Victim": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 106.325806,
+        "y": -81.4131241,
+        "z": -26.0127144
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT4M5.4298607S"
+    },
+    {
+      "ImpulseId": 1408036107,
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT4M5.4298607S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M2.3667S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT4M5.4298607S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT4M13.4477575S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT4M13.4477575S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT4M13.4477575S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 0,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 2457457776,
+      "KillerWorldLocation": {
+        "x": 141.2987,
+        "y": -77.54404,
+        "z": -26.3334637
+      },
+      "Victim": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 141.2987,
+        "y": -77.54404,
+        "z": -26.3334637
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT4M34.4745075S"
+    },
+    {
+      "ImpulseId": 1408036107,
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT4M34.4745075S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M2.8667S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT4M34.4815084S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M17.9167S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT4M34.4815084S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT4M42.6314036S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT4M42.6314036S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT4M42.6314036S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M2.7500S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT5M0.8611737S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT5M0.8611737S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT5M0.8611737S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 1,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": true,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "KillerWeaponStockId": 523953283,
+      "KillerWorldLocation": {
+        "x": 135.097321,
+        "y": 27.92985,
+        "z": -24.6762352
+      },
+      "Victim": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 135.114944,
+        "y": 27.2852936,
+        "z": -25.3210278
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT5M55.6094495S"
+    },
+    {
+      "MedalId": 2287626681,
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "Medal",
+      "TimeSinceStart": "PT5M55.6104682S"
+    },
+    {
+      "MedalId": 3001183151,
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "Medal",
+      "TimeSinceStart": "PT5M55.6114683S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M42.9667S",
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT5M55.619468S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M28.9167S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT5M55.6204678S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 2,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M17.1167S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT5M59.6394194S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT5M59.6394194S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT6M3.6383483S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT6M3.63937S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT6M3.63937S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M0.4500S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT6M29.2060571S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT6M29.2070207S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT6M29.2070207S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 0,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 2457457776,
+      "KillerWorldLocation": {
+        "x": -59.27288,
+        "y": -48.2994728,
+        "z": -26.3250027
+      },
+      "Victim": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": -59.27288,
+        "y": -48.2994728,
+        "z": -26.3250027
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT6M30.7380061S"
+    },
+    {
+      "ImpulseId": 1408036107,
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT6M30.7380061S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M25.0167S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT6M30.739019S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M1.5333S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT6M30.739019S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT6M38.7549154S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT6M38.7549154S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT6M38.7549154S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 2,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 4106030681,
+      "KillerWorldLocation": {
+        "x": -33.4196243,
+        "y": 47.1815262,
+        "z": -19.3507175
+      },
+      "Victim": null,
+      "VictimAgent": 0,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": -33.0740967,
+        "y": 44.4720535,
+        "z": -16.86801
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT7M27.6352731S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M30.0500S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT8M18.6296196S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT8M18.6296196S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT8M18.6296196S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M16.3500S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT8M37.1613841S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT8M37.1613841S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT8M37.1623837S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 1,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": true,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": true,
+      "Killer": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "KillerWeaponStockId": 523953283,
+      "KillerWorldLocation": {
+        "x": 48.488842,
+        "y": -8.836545,
+        "z": -22.3680611
+      },
+      "Victim": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 48.1868973,
+        "y": -20.6149,
+        "z": -25.7399158
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT9M15.5099011S"
+    },
+    {
+      "ImpulseId": 3174430457,
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT9M15.5179175S"
+    },
+    {
+      "MedalId": 370413844,
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "Medal",
+      "TimeSinceStart": "PT9M15.5189125S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 45,
+      "ShotsLanded": 16,
+      "TimeWeaponActiveAsPrimary": "P0DT0H2M24.2500S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M15.5189125S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M15.5189125S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M48.4000S",
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M15.5189125S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT9M23.5338081S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT9M23.5338081S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT9M23.5338081S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        862778203
+      ],
+      "WeaponStockId": 4233134183,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT9M26.6947517S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        862778203
+      ],
+      "WeaponStockId": 4233134183,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT9M26.6947517S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M0.8833S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M39.05859S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M14.6500S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M39.05859S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M19.7000S",
+      "WeaponAttachmentIds": [
+
+      ],
+      "WeaponStockId": 1730553442,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M58.9663539S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 1,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": true,
+      "Killer": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        862778203
+      ],
+      "KillerWeaponStockId": 4233134183,
+      "KillerWorldLocation": {
+        "x": 66.4902649,
+        "y": -17.7466831,
+        "z": -25.78517
+      },
+      "Victim": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 95.17102,
+        "y": -69.88652,
+        "z": -24.4824314
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT9M59.6603256S"
+    },
+    {
+      "MedalId": 2494364276,
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "Medal",
+      "TimeSinceStart": "PT9M59.6603256S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M0.7000S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT9M59.6683505S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT10M7.6642239S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT10M7.6652473S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT10M7.6652473S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 7,
+      "ShotsLanded": 2,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M16.1333S",
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        862778203
+      ],
+      "WeaponStockId": 4233134183,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT10M43.3068079S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0S",
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        862778203
+      ],
+      "WeaponStockId": 4233134183,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT10M43.3068079S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 10,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M32.9500S",
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT11M43.7400271S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickupPad",
+      "TimeSinceStart": "PT11M43.7410131S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT11M43.7410131S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 0,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 2457457776,
+      "KillerWorldLocation": {
+        "x": 127.655418,
+        "y": -34.0090942,
+        "z": -26.1851044
+      },
+      "Victim": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 127.655418,
+        "y": -34.0090942,
+        "z": -26.1851044
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT11M50.121942S"
+    },
+    {
+      "ImpulseId": 1408036107,
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT11M50.1229129S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M3.5167S",
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT11M50.1229129S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "ShotsFired": 2,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M5.6333S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT11M50.1239148S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        1095363701
+      ],
+      "WeaponStockId": 313138863,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT11M58.1408128S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "WeaponAttachmentIds": [
+        2758383128
+      ],
+      "WeaponStockId": 4096745987,
+      "EventName": "WeaponPickup",
+      "TimeSinceStart": "PT11M58.1408128S"
+    },
+    {
+      "Player": {
+        "Gamertag": "xSG Pink Kitty",
+        "Xuid": null
+      },
+      "EventName": "PlayerSpawn",
+      "TimeSinceStart": "PT11M58.1408128S"
+    },
+    {
+      "Assistants": [
+
+      ],
+      "DeathDisposition": 0,
+      "IsAssassination": false,
+      "IsGroundPound": false,
+      "IsHeadshot": false,
+      "IsMelee": false,
+      "IsShoulderBash": false,
+      "IsWeapon": false,
+      "Killer": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "KillerAgent": 1,
+      "KillerWeaponAttachmentIds": [
+
+      ],
+      "KillerWeaponStockId": 2457457776,
+      "KillerWorldLocation": {
+        "x": 138.979065,
+        "y": 12.7787533,
+        "z": -26.35612
+      },
+      "Victim": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "VictimAgent": 1,
+      "VictimAttachmentIds": [
+
+      ],
+      "VictimStockId": 0,
+      "VictimWorldLocation": {
+        "x": 138.979065,
+        "y": 12.7787533,
+        "z": -26.35612
+      },
+      "EventName": "Death",
+      "TimeSinceStart": "PT12M12.1227493S"
+    },
+    {
+      "ImpulseId": 1408036107,
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "EventName": "Impulse",
+      "TimeSinceStart": "PT12M12.1227493S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 3,
+      "ShotsLanded": 2,
+      "TimeWeaponActiveAsPrimary": "P0DT0H1M45.7333S",
+      "WeaponAttachmentIds": [
+        3010805662,
+        4044889220,
+        2758383128,
+        862778203
+      ],
+      "WeaponStockId": 3682788176,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT12M12.1236614S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 11,
+      "ShotsLanded": 7,
+      "TimeWeaponActiveAsPrimary": "P0DT0H0M44.3167S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT12M12.1236614S"
+    },
+    {
+      "Player": {
+        "Gamertag": "bubu dubu",
+        "Xuid": null
+      },
+      "ShotsFired": 0,
+      "ShotsLanded": 0,
+      "TimeWeaponActiveAsPrimary": "P0DT0S",
+      "WeaponAttachmentIds": [
+        4000462589,
+        2208825748
+      ],
+      "WeaponStockId": 523953283,
+      "EventName": "WeaponDrop",
+      "TimeSinceStart": "PT12M12.1236614S"
+    }
+  ]
+]

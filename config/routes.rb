@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :players
 
   get 'gamer', :to => 'players#gamer', :as => :gamer
+  get 'download', :to => 'players#download', :as => :download
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

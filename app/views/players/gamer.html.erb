@@ -12,25 +12,33 @@
   </div>
 </div>
 
-<div>
+<div class="container">
   <h2> Last <%= @count == "" ? 5 : @count %> Games </h2>
   <table>
     <thead>
       <tr>
+        <th width="25"><%= check_box_tag "select_all" %> Select All</th>
+        <th width="150">Map</th>
+        <th width="150">Game Mode</th>
         <th width="150">Kills</th>
         <th width="150">Deaths</th>
         <th width="150">Assists</th>
       </tr>
     </thead>
-
+    <%= form_tag("/download", method: "get") do %>
     <tbody>
       <% @results.each do |stats| %>
         <tr>
-          <td><%= stats["kills"] %></td>
+          <td><%= check_box_tag "match_info[]", stats["match_id"], false, class:"check", :style => "width: 30px; height: 30px;" %> </td>
+          <td><%= stats["map"] %> </td>
+          <td><%= stats["game_mode"] %></td>
+          <td><%= stats["kills"] %> </td>
           <td><%= stats["deaths"] %></td>
           <td><%= stats["assists"] %></td>
         </tr>
       <% end %>
+        <%= submit_tag "Download", class:"btn" %>
     </tbody>
   </table>
+  <% end %>
 </div>

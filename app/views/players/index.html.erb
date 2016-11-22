@@ -5,13 +5,11 @@
       <%= label_tag(:gamertag, "Gamertag:") %>
       <%= text_field_tag(:gamertag, nil, required: true)%> 
       <%= label_tag(:count, "Game Count:") %>
-      <%= number_field_tag(:count, nil, max:25, min: 1) %> 
+      <%= number_field_tag(:count) %> 
       <%= submit_tag("Search", class:"large button") %>
     <% end %>
   </div>
 </div>
-
-
 
 
 
