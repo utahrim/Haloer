@@ -10,7 +10,6 @@ class PlayersController < ApplicationController
     # @emblem = emblem(@player)
     @maps = JSON(get_map)
     @results = stats(@player, @count)
-    binding.pry
   end
 
 
